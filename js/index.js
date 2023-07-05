@@ -74,3 +74,5 @@ console.log(nombre1);
 console.log(primaria);
 console.log(superior);
 console.log(superior);
+//clase2
+console.log(typeof(nombre));
