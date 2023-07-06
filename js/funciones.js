@@ -20,3 +20,7 @@ const sum =(x,y) =>{
     return `El resultado de la suma es  ${resultado}`
 }
 console.log(sum(4,5));
+const sum1 =(x,y) =>{
+    let resultado=x+y;
+    return `El resultado de la suma es  ${resultado}`
+}
