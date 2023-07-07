@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script type="text/Javascript">
+        
+            function suma(){
+                let numero1 = Number(document.getElementById(`numero1`).value);
+                let numero2 = Number(document.getElementById(`numero2`).value);
+                
+                
+                let resultado = numero1 + numero2
+                
+                document.getElementById(`resultado`).value=resultado
+            }
+            function restar(){
+                let numero1 = Number(document.getElementById(`numero1`).value);
+                let numero2 = Number(document.getElementById(`numero2`).value);
+                
+                
+                let resultado = numero1 - numero2
+                
+                document.getElementById(`resultado`).value=resultado
+            }
+            function multiplicar(){
+                let numero1 = Number(document.getElementById(`numero1`).value);
+                let numero2 = Number(document.getElementById(`numero2`).value);
+                
+                
+                let resultado = numero1 * numero2
+                
+                document.getElementById(`resultado`).value=resultado
+            }
+            function dividir(){
+                let numero1 = Number(document.getElementById(`numero1`).value);
+                let numero2 = Number(document.getElementById(`numero2`).value);
+                
+                
+                let resultado = numero1 / numero2
+                
+                document.getElementById(`resultado`).value=resultado
+            }
+            
+    </script>
+</head>
+<body>
+    Numero 1 <input type="text" id="numero1"><br><br>
+    Numero 2 <input type="text" id="numero2"><br><br>
+    Resultado <input type="text" id="resultado"><br><br>
+    
+    <input type="button" value="Sumar" onclick="suma()">
+    <input type="button" value="Restar" onclick="restar()">
+    <input type="button" value="Multiplicar" onclick="multiplicar()">
+    <input type="button" value="Dividir" onclick="dividir()">
+</body>
+</html>
